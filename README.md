@@ -3,7 +3,7 @@
 # 🕊️ Iguga.AuditLogging
 > Simple audit logging for .NET Core with EntityFramework Core support
 
-**This project is ported to .NET 6.** 🚀
+**This project is a fork of [Skoruba AuditLoggig](https://github.com/skoruba/AuditLogging) ported to .NET 6.** 🚀
 
 # How to install
 
