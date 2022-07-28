@@ -1,4 +1,4 @@
-![Logo](docs/Images/Skoruba-ReadMe.png) 
+![Logo](docs/Images/Iguga-ReadMe.png) 
 
 # 🕊️ Iguga.AuditLogging
 > Simple audit logging for .NET Core with EntityFramework Core support
