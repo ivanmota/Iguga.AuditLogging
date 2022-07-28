@@ -6,11 +6,11 @@
         <Description>Simple audit logging for .NET Core with EntityFramework Core support</Description>
         <PackageProjectUrl></PackageProjectUrl>
         <RepositoryUrl>https://github.com/ivanmota/Iguga.AuditLogging</RepositoryUrl>
-        <PackageIconUrl>https://raw.githubusercontent.com/skoruba/IdentityServer4.Admin/master/docs/Images/Skoruba.IdentityServer4.Admin-Logo-Nuget.png</PackageIconUrl>
+        <PackageIconUrl>https://raw.githubusercontent.com/ivanmota/Iguga.AuditLogging/master/docs/Images/Iguga-Logo-Nuget.png</PackageIconUrl>
         <PackageTags>.Net Core, AuditLogging, EntityFramework Core</PackageTags>
         <PackageLicenseExpression></PackageLicenseExpression>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
-        <Authors>Jan Škoruba</Authors>
+        <Authors>Ivan Mota</Authors>
     </PropertyGroup>
 
     <ItemGroup>

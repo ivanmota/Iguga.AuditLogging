@@ -4,7 +4,6 @@
         <TargetFramework>net6.0</TargetFramework>
         <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
         <UserSecretsId>5cc61b65-f1d1-4aa9-be20-fbf67d81e116</UserSecretsId>
-        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
 	<ItemGroup>
