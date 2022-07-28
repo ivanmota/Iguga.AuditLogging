@@ -1,6 +1,6 @@
 ![Logo](docs/Images/Skoruba-ReadMe.png) 
 
-# 🕊️ Skoruba.AuditLogging
+# 🕊️ Iguga.AuditLogging
 > Simple audit logging for .NET Core with EntityFramework Core support
 
 **This project is ported to .NET 6.** 🚀
@@ -8,7 +8,7 @@
 # How to install
 
 ```ps
-dotnet add package Skoruba.AuditLogging.EntityFramework --version 1.1.0
+dotnet add package Iguga.AuditLogging.EntityFramework --version 1.1.0
 ```
 
 # How to use it
