@@ -8,7 +8,7 @@
 # How to install
 
 ```ps
-dotnet add package Iguga.AuditLogging.EntityFramework --version 1.1.0
+dotnet add package Iguga.AuditLogging.EntityFramework --version 1.1.2
 ```
 
 # How to use it
