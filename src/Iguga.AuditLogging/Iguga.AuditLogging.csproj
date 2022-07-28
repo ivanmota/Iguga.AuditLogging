@@ -12,6 +12,7 @@
         <Authors>Ivan Mota</Authors>
         <PackageIcon>Iguga-Logo-Nuget.png</PackageIcon>
         <PackageReadmeFile>README.md</PackageReadmeFile>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>
