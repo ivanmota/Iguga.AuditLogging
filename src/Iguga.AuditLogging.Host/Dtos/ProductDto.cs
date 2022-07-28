@@ -1,4 +1,4 @@
-﻿namespace Skoruba.AuditLogging.Host.Dtos
+﻿namespace Iguga.AuditLogging.Host.Dtos
 {
     public class ProductDto
     {

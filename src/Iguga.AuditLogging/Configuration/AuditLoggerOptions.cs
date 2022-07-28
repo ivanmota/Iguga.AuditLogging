@@ -1,4 +1,4 @@
-﻿namespace Skoruba.AuditLogging.Configuration
+﻿namespace Iguga.AuditLogging.Configuration
 {
     public class AuditLoggerOptions
     {

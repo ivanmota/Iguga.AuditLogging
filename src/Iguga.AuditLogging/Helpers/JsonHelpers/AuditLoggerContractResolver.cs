@@ -1,9 +1,9 @@
 ﻿using System.Reflection;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
-using Skoruba.AuditLogging.Events;
+using Iguga.AuditLogging.Events;
 
-namespace Skoruba.AuditLogging.Helpers.JsonHelpers
+namespace Iguga.AuditLogging.Helpers.JsonHelpers
 {
     public class AuditLoggerContractResolver : DefaultContractResolver
     {

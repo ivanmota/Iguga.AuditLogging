@@ -1,6 +1,6 @@
-﻿using Skoruba.AuditLogging.Helpers.Common;
+﻿using Iguga.AuditLogging.Helpers.Common;
 
-namespace Skoruba.AuditLogging.Events
+namespace Iguga.AuditLogging.Events
 {
     /// <summary>
     /// Default audit event for logging

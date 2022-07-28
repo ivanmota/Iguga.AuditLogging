@@ -1,6 +1,6 @@
-﻿using Skoruba.AuditLogging.Constants;
+﻿using Iguga.AuditLogging.Constants;
 
-namespace Skoruba.AuditLogging.Configuration
+namespace Iguga.AuditLogging.Configuration
 {
     public class AuditHttpSubjectOptions
     {

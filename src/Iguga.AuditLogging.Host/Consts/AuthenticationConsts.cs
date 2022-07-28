@@ -1,4 +1,4 @@
-﻿namespace Skoruba.AuditLogging.Host.Consts
+﻿namespace Iguga.AuditLogging.Host.Consts
 {
     public class AuthenticationConsts
     {

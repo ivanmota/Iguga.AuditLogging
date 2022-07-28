@@ -4,6 +4,9 @@
         <TargetFramework>net6.0</TargetFramework>
         <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
         <UserSecretsId>5cc61b65-f1d1-4aa9-be20-fbf67d81e116</UserSecretsId>
+        <PackageProjectUrl>https://github.com/ivanmota/Iguga.AuditLogging</PackageProjectUrl>
+        <PackageIcon>Iguga-Logo-Nuget.png</PackageIcon>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
 	<ItemGroup>
@@ -21,6 +24,17 @@
 
     <ItemGroup>
       <Folder Include="Data\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="..\..\docs\Images\Iguga-Logo-Nuget.png">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
+      <None Include="..\..\README.md">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
     </ItemGroup>
 
 </Project>

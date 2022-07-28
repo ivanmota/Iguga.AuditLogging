@@ -1,14 +1,14 @@
 ﻿using System;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
-using Skoruba.AuditLogging.Configuration;
-using Skoruba.AuditLogging.Events;
-using Skoruba.AuditLogging.Events.Default;
-using Skoruba.AuditLogging.Events.Http;
-using Skoruba.AuditLogging.Extensions;
-using Skoruba.AuditLogging.Services;
+using Iguga.AuditLogging.Configuration;
+using Iguga.AuditLogging.Events;
+using Iguga.AuditLogging.Events.Default;
+using Iguga.AuditLogging.Events.Http;
+using Iguga.AuditLogging.Extensions;
+using Iguga.AuditLogging.Services;
 
-namespace Skoruba.AuditLogging.EntityFramework.Extensions
+namespace Iguga.AuditLogging.EntityFramework.Extensions
 {
     public static class AuditLoggingExtensions
     {

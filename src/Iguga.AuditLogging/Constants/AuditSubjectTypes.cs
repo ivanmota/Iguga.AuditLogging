@@ -1,4 +1,4 @@
-﻿namespace Skoruba.AuditLogging.Constants
+﻿namespace Iguga.AuditLogging.Constants
 {
     public class AuditSubjectTypes
     {

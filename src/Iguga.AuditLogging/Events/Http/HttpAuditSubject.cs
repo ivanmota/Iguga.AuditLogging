@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using Microsoft.AspNetCore.Http;
-using Skoruba.AuditLogging.Configuration;
-using Skoruba.AuditLogging.Constants;
+using Iguga.AuditLogging.Configuration;
+using Iguga.AuditLogging.Constants;
 
-namespace Skoruba.AuditLogging.Events.Http
+namespace Iguga.AuditLogging.Events.Http
 {
     public class HttpAuditSubject : IAuditSubject
     {

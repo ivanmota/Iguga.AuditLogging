@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Skoruba.AuditLogging.EntityFramework.Extensions;
+using Iguga.AuditLogging.EntityFramework.Extensions;
 
-namespace Skoruba.AuditLogging.Extensions
+namespace Iguga.AuditLogging.Extensions
 {
     public class AuditLoggingBuilder : IAuditLoggingBuilder
     {

@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Skoruba.AuditLogging.EntityFramework.Helpers
+namespace Iguga.AuditLogging.EntityFramework.Helpers
 {
     public static class QueryableExtensions
     {

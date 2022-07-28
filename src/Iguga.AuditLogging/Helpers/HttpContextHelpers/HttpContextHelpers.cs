@@ -6,7 +6,7 @@ using System.IO;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Primitives;
 
-namespace Skoruba.AuditLogging.Helpers.HttpContextHelpers
+namespace Iguga.AuditLogging.Helpers.HttpContextHelpers
 {
     public class HttpContextHelpers
     {

@@ -1,4 +1,4 @@
-﻿namespace Skoruba.AuditLogging.Events
+﻿namespace Iguga.AuditLogging.Events
 {
     public interface IAuditAction
     {

@@ -3,12 +3,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Skoruba.AuditLogging.Constants;
-using Skoruba.AuditLogging.Host.Dtos;
-using Skoruba.AuditLogging.Host.Events;
-using Skoruba.AuditLogging.Services;
+using Iguga.AuditLogging.Constants;
+using Iguga.AuditLogging.Host.Dtos;
+using Iguga.AuditLogging.Host.Events;
+using Iguga.AuditLogging.Services;
 
-namespace Skoruba.AuditLogging.Host.Controllers
+namespace Iguga.AuditLogging.Host.Controllers
 {
     [Authorize]
     [Route("api/[controller]")]

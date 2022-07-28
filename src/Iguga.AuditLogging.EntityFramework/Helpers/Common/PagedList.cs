@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Skoruba.AuditLogging.EntityFramework.Helpers.Common
+namespace Iguga.AuditLogging.EntityFramework.Helpers.Common
 {
     public class PagedList<T> where T : class
     {

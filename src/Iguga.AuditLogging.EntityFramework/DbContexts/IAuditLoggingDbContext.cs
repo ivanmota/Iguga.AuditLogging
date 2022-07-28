@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Skoruba.AuditLogging.EntityFramework.Entities;
+using Iguga.AuditLogging.EntityFramework.Entities;
 
-namespace Skoruba.AuditLogging.EntityFramework.DbContexts
+namespace Iguga.AuditLogging.EntityFramework.DbContexts
 {
     public interface IAuditLoggingDbContext<TAuditLog> where TAuditLog : AuditLog
     {

@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Skoruba.AuditLogging.Host.Consts;
+using Iguga.AuditLogging.Host.Consts;
 
-namespace Skoruba.AuditLogging.Host.Helpers.Authentication
+namespace Iguga.AuditLogging.Host.Helpers.Authentication
 {
     public class TestAuthenticationHandler : AuthenticationHandler<TestAuthenticationOptions>
     {

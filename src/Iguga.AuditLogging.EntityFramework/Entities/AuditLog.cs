@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Skoruba.AuditLogging.EntityFramework.Entities
+namespace Iguga.AuditLogging.EntityFramework.Entities
 {
     public class AuditLog
     {

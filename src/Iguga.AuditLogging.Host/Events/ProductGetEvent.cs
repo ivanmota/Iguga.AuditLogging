@@ -1,7 +1,7 @@
-﻿using Skoruba.AuditLogging.Events;
-using Skoruba.AuditLogging.Host.Dtos;
+﻿using Iguga.AuditLogging.Events;
+using Iguga.AuditLogging.Host.Dtos;
 
-namespace Skoruba.AuditLogging.Host.Events
+namespace Iguga.AuditLogging.Host.Events
 {
     public class ProductGetEvent : AuditEvent
     {

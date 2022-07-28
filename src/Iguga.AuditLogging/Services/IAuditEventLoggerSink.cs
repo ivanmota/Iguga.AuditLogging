@@ -5,9 +5,9 @@
 // Modified by Jan Škoruba
 
 using System.Threading.Tasks;
-using Skoruba.AuditLogging.Events;
+using Iguga.AuditLogging.Events;
 
-namespace Skoruba.AuditLogging.Services
+namespace Iguga.AuditLogging.Services
 {
     public interface IAuditEventLoggerSink
     {

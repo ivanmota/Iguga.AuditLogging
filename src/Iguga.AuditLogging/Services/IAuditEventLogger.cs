@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Skoruba.AuditLogging.Configuration;
-using Skoruba.AuditLogging.Events;
+using Iguga.AuditLogging.Configuration;
+using Iguga.AuditLogging.Events;
 
-namespace Skoruba.AuditLogging.Services
+namespace Iguga.AuditLogging.Services
 {
     public interface IAuditEventLogger<out TAuditLoggerOptions> 
         where TAuditLoggerOptions : AuditLoggerOptions

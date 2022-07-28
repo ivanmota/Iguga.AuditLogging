@@ -1,6 +1,6 @@
 ﻿using System.Data;
 
-namespace Skoruba.AuditLogging.Constants
+namespace Iguga.AuditLogging.Constants
 {
     public class ClaimsConsts
     {

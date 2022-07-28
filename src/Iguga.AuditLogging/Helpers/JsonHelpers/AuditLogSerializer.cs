@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Formatting = Newtonsoft.Json.Formatting;
 
-namespace Skoruba.AuditLogging.Helpers.JsonHelpers
+namespace Iguga.AuditLogging.Helpers.JsonHelpers
 {
     /// <summary>
     /// Helper to JSON serialize object data for audit logging.

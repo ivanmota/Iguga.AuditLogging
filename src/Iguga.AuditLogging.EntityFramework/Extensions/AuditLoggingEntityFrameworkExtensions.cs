@@ -1,14 +1,14 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Skoruba.AuditLogging.EntityFramework.DbContexts;
-using Skoruba.AuditLogging.EntityFramework.DbContexts.Default;
-using Skoruba.AuditLogging.EntityFramework.Entities;
-using Skoruba.AuditLogging.EntityFramework.Repositories;
-using Skoruba.AuditLogging.EntityFramework.Services;
-using Skoruba.AuditLogging.Extensions;
+using Iguga.AuditLogging.EntityFramework.DbContexts;
+using Iguga.AuditLogging.EntityFramework.DbContexts.Default;
+using Iguga.AuditLogging.EntityFramework.Entities;
+using Iguga.AuditLogging.EntityFramework.Repositories;
+using Iguga.AuditLogging.EntityFramework.Services;
+using Iguga.AuditLogging.Extensions;
 
-namespace Skoruba.AuditLogging.EntityFramework.Extensions
+namespace Iguga.AuditLogging.EntityFramework.Extensions
 {
     public static class AuditLoggingEntityFrameworkExtensions
     {

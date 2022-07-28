@@ -1,8 +1,8 @@
-﻿using Skoruba.AuditLogging.EntityFramework.Entities;
-using Skoruba.AuditLogging.Events;
-using Skoruba.AuditLogging.Helpers.JsonHelpers;
+﻿using Iguga.AuditLogging.EntityFramework.Entities;
+using Iguga.AuditLogging.Events;
+using Iguga.AuditLogging.Helpers.JsonHelpers;
 
-namespace Skoruba.AuditLogging.EntityFramework.Mapping
+namespace Iguga.AuditLogging.EntityFramework.Mapping
 {
     public static class AuditMapping
     {

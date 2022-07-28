@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Skoruba.AuditLogging.Helpers.Common
+namespace Iguga.AuditLogging.Helpers.Common
 {
     public static class TypeHelpers
     {

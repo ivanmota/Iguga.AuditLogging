@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Skoruba.AuditLogging.EntityFramework.Entities;
-using Skoruba.AuditLogging.EntityFramework.Mapping;
-using Skoruba.AuditLogging.EntityFramework.Repositories;
-using Skoruba.AuditLogging.Events;
-using Skoruba.AuditLogging.Services;
+using Iguga.AuditLogging.EntityFramework.Entities;
+using Iguga.AuditLogging.EntityFramework.Mapping;
+using Iguga.AuditLogging.EntityFramework.Repositories;
+using Iguga.AuditLogging.Events;
+using Iguga.AuditLogging.Services;
 
-namespace Skoruba.AuditLogging.EntityFramework.Services
+namespace Iguga.AuditLogging.EntityFramework.Services
 {
     public class DatabaseAuditEventLoggerSink<TAuditLog> : IAuditEventLoggerSink 
         where TAuditLog : AuditLog, new()

@@ -1,4 +1,4 @@
-﻿namespace Skoruba.AuditLogging.Events.Default
+﻿namespace Iguga.AuditLogging.Events.Default
 {
     public class DefaultAuditAction : IAuditAction
     {

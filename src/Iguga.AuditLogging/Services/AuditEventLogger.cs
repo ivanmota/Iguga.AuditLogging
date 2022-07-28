@@ -7,10 +7,10 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Skoruba.AuditLogging.Configuration;
-using Skoruba.AuditLogging.Events;
+using Iguga.AuditLogging.Configuration;
+using Iguga.AuditLogging.Events;
 
-namespace Skoruba.AuditLogging.Services
+namespace Iguga.AuditLogging.Services
 {
     public class AuditEventLogger : IAuditEventLogger
     {

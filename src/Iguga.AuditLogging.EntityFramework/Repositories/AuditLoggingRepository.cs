@@ -1,11 +1,11 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Skoruba.AuditLogging.EntityFramework.DbContexts;
-using Skoruba.AuditLogging.EntityFramework.Entities;
-using Skoruba.AuditLogging.EntityFramework.Helpers;
-using Skoruba.AuditLogging.EntityFramework.Helpers.Common;
+using Iguga.AuditLogging.EntityFramework.DbContexts;
+using Iguga.AuditLogging.EntityFramework.Entities;
+using Iguga.AuditLogging.EntityFramework.Helpers;
+using Iguga.AuditLogging.EntityFramework.Helpers.Common;
 
-namespace Skoruba.AuditLogging.EntityFramework.Repositories
+namespace Iguga.AuditLogging.EntityFramework.Repositories
 {
     public class AuditLoggingRepository<TDbContext, TAuditLog> : IAuditLoggingRepository<TAuditLog>
     where TDbContext : IAuditLoggingDbContext<TAuditLog> 
