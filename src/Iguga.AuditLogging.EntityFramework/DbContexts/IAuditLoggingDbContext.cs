@@ -6,7 +6,7 @@ namespace Iguga.AuditLogging.EntityFramework.DbContexts
 {
     public interface IAuditLoggingDbContext<TAuditLog> where TAuditLog : AuditLog
     {
-        DbSet<TAuditLog> AuditLog { get; set; }
+        DbSet<TAuditLog> AuditLogs { get; set; }
 
         Task<int> SaveChangesAsync();
     }

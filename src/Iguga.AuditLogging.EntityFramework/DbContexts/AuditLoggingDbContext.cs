@@ -13,7 +13,7 @@ namespace Iguga.AuditLogging.EntityFramework.DbContexts
         {
         }
 
-        public DbSet<TAuditLog> AuditLog { get; set; }
+        public DbSet<TAuditLog> AuditLogs { get; set; }
 
         public Task<int> SaveChangesAsync()
         {

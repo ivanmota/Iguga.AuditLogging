@@ -22,13 +22,13 @@ namespace Iguga.AuditLogging.EntityFramework.Repositories
         {
             var pagedList = new PagedList<TAuditLog>();
 
-            var auditLogs = await DbContext.AuditLog
+            var auditLogs = await DbContext.AuditLogs
                 .PageBy(x => x.Id, page, pageSize)
                 .ToListAsync();
 
             pagedList.Data.AddRange(auditLogs);
             pagedList.PageSize = pageSize;
-            pagedList.TotalCount = await DbContext.AuditLog.CountAsync();
+            pagedList.TotalCount = await DbContext.AuditLogs.CountAsync();
 
 
             return pagedList;
@@ -38,7 +38,7 @@ namespace Iguga.AuditLogging.EntityFramework.Repositories
         {
             var pagedList = new PagedList<TAuditLog>();
 
-            var auditLogs = await DbContext.AuditLog
+            var auditLogs = await DbContext.AuditLogs
                 .WhereIf(!string.IsNullOrWhiteSpace(subjectIdentifier), x => x.SubjectIdentifier == subjectIdentifier)
                 .WhereIf(!string.IsNullOrWhiteSpace(subjectName), x => x.SubjectName == subjectName)
                 .WhereIf(!string.IsNullOrWhiteSpace(category), x => x.Category == category)
@@ -47,7 +47,7 @@ namespace Iguga.AuditLogging.EntityFramework.Repositories
 
             pagedList.Data.AddRange(auditLogs);
             pagedList.PageSize = pageSize;
-            pagedList.TotalCount = await DbContext.AuditLog.CountAsync();
+            pagedList.TotalCount = await DbContext.AuditLogs.CountAsync();
 
 
             return pagedList;
@@ -55,7 +55,7 @@ namespace Iguga.AuditLogging.EntityFramework.Repositories
 
         public virtual async Task SaveAsync(TAuditLog auditLog)
         {
-            await DbContext.AuditLog.AddAsync(auditLog);
+            await DbContext.AuditLogs.AddAsync(auditLog);
             await DbContext.SaveChangesAsync();
         }
     }
